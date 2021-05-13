@@ -8,11 +8,11 @@ export const Container = styled.View`
 
 export const HeaderContainer = styled.View`
     backgroundColor: ${colors.primary};
-     borderBottomRightRadius: 50;
-     borderBottomLeftRadius: 50;
+     borderBottomRightRadius: 50px;
+     borderBottomLeftRadius: 50px;
 `;
 export const BackButton = styled.Text`
-    fontSize: 24;
+    fontSize: 24px;
     fontWeight: bold;
     color: ${colors.white};
     padding: 10px;
@@ -22,7 +22,7 @@ export const ImageContainer = styled.Image`
     width: 200px; 
     height: 200px;
     alignSelf: center;
-    top: 60;
+    top: 60px;
 `;
 
 export const InfosContainer = styled.View`
@@ -31,7 +31,7 @@ export const InfosContainer = styled.View`
 
 export const TextName = styled.Text`
     textAlign: center;
-    fontSize: 30;
+    fontSize: 30px;
 `;
 export const ContainerType = styled.View`
     backgroundColor: ${colors.redOpacity};
@@ -41,12 +41,12 @@ export const ContainerType = styled.View`
 `;
 export const TextType = styled.Text`
     textAlign: center;
-    fontSize: 20;
+    fontSize: 20px;
     fontWeight: bold;
     color: ${colors.white};
 `;
 
 export const TextHeightWight = styled.Text`
     textAlign: center;
-    fontSize: 20;
+    fontSize: 20px;
 `;

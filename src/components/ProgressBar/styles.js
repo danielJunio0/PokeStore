@@ -5,12 +5,12 @@ const width = Dimensions.get('screen').width;
 
 export const ContainerBar = styled.View`
     width:90%;
-    paddingHorizontal: 10;
+    paddingHorizontal: 10px;
     flexDirection:column;
 `;
 
 export const TextInfo = styled.Text`
-    fontSize: 16;
+    fontSize: 16px;
     fontWeight: bold;
     color: ${colors.blackBluish};
 `;
@@ -18,5 +18,5 @@ export const TextInfo = styled.Text`
 export const ProgressBar = styled.View`
     backgroundColor: ${colors.gold};
     height: 10px;
-    borderRadius: 15;
+    borderRadius: 15px;
 `;

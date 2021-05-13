@@ -21,12 +21,12 @@ padding: 5%;
 
 export const ListItemButton = styled.TouchableOpacity`
     backgroundColor: ${colors.white};
-    borderRadius: 20;
+    borderRadius: 20px;
     alignItems: center;
 `;
 
 export const ListItemText = styled.Text`
-    fontSize: 18;
+    fontSize: 18px;
     fontWeight: bold;
     fontFamily: 'monospace';
     color:${colors.green};
@@ -39,7 +39,7 @@ export const ListItemImage = styled.Image`
 `;
 
 export const PaginationIcon = styled.Text`
-    fontSize: 24;
+    fontSize: 24px;
     fontWeight: bold; 
     color: ${colors.white};
 `;
