@@ -37,7 +37,7 @@ export const ContainerType = styled.View`
     backgroundColor: ${colors.redOpacity};
     width: 30%;
     alignSelf:center;
-    borderRadius:10;
+    borderRadius:10px;
 `;
 export const TextType = styled.Text`
     textAlign: center;
